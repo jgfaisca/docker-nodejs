@@ -3,6 +3,7 @@ FROM ubuntu:latest
 
 MAINTAINER Jose G. Faisca <jose.faisca@gmail.com>
 
+Nodejs version 
 ENV VERSION 6
 
 RUN apt-get update && apt-get install -y curl
